@@ -1,0 +1,63 @@
+#image{
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    max-width: 100%;  
+  }
+
+#title{
+    font-size: 32;
+    font-weight: bold;
+    text-align: center;  
+    font-family: fantasy;
+}
+
+#tribute-info{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(50, 8, 90);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#tribute-info2{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(50, 8, 90);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#Birth-Head{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-size: 32;
+    font-family: fantasy;
+}
+
+#Birth-info{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(50, 8, 90);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#tribute-link{
+
+}
+
+.background-wrap{
+    overflow: hidden;
+    position: relative;
+}
+
+.JapanBack{
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
