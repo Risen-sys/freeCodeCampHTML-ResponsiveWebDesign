@@ -1,0 +1,121 @@
+/* background */
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  }
+  
+  @keyframes gradient {
+  0% {
+  background-position: 0% 50%;
+  }
+  
+  50% {
+  background-position: 100% 50%;
+  }
+  
+  100% {
+  background-position: 0% 50%;
+  }
+  }
+
+/* css reset */
+* {
+  margin: 0;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  background-color: rgba(127, 255, 212, 0.603);
+}
+
+#main-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  min-width: 280px;
+  max-width: 300px;
+}
+
+#navbar{
+  height: 100%;
+  border-right: solid 2.5px #333;
+}
+
+#navbar>h1{
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#navbar ul{
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 90%;
+  list-style: none;
+}
+
+#navbar ul li{
+  border: solid 1.3px #333;
+}
+
+#main-header #navbar ul li a{
+  display: block;
+  text-align: left;
+  padding: .8rem 1rem .8rem 2rem;
+  text-decoration: none;
+}
+
+#navbar a:link{
+  color:rgb(223, 64, 64);
+}
+
+#navbar a:visited{
+  color: rgb(88, 32, 141);
+}
+
+#navbar a:active{
+  color: black;
+}
+
+/* section main */
+#main-doc{
+  position: absolute;
+  margin-left: 320px;
+  padding: 2rem 1rem;
+}
+
+#main-doc .main-section header{
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+
+/* pubg mobile gamers */
+@media (max-width: 600px) {
+  #main-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    max-width: 95%;
+    max-height: 400px;
+  }
+
+  #navbar {
+    width: 100%;
+    margin: 0;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    padding: 2rem 1rem;
+    margin-top: 410px;
+  }
+
+}
